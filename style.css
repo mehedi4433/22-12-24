@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", serif;
+}
+
+.search01{
+    width: 30rem;
+}
+
+.navy02{
+    gap: 0.75rem;
+}
+
+.btn2{
+    border: none;
+    background-color: white;
+}
+
+.btn2:hover{
+    background-color: white;
+}
+
+.btn1{
+    background-color: #0aad0a;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: #099309;
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.hero{
+    background-color: #CFE7D9;
+}
+
+.hero-text .p1{
+    display: inline-block;
+    background-color: #FFC107;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero-text h1{
+    /* font-size: 3rem;
+    line-height: 60px;
+    font-weight: 700; */
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #001E2B;
+}
+
+.hero-img img{
+    width: 37.5rem;
+    height: 28rem;
+}
+
+.slider02{
+    gap: 0.50rem;
+}
+
+.slider02 i{
+    background-color: #d3d3d3;
+    color: #000;
+    padding: 0.50rem;
+    display: inline;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: 0.5s;
+}
+
+.slider02 i:hover{
+    background-color: #07DB07;
+    color: white;
+}
+
+.card01{
+    background-image: url(images/grocery-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    border: none;
+}
+
+.card02{
+    background-image: url(images/grocery-banner-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    border: none;
+}
+
+.card .p3{
+    display: inline;
+}
+
+.card .btn3{
+    background-color: #0aad0a;
+    border: none;
+}
+
+.card .btn3:hover{
+    background-color:  #099309;
+    border: none;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card .p4{
+    margin-left: 12rem;
+}
+
+.p5{
+    font-size: 1rem;
+}
+
+.p6{
+    font-size: 0.75rem;
+}
+
+.p7{
+    font-size: 0.85rem;
+}
+
+.icon01 i{
+    font-size: 2.5rem;
+    color: #0aad0a;
+}
